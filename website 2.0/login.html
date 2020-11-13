@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="images/favicon.ico" type="image/png" sizes="16x16" />
+    <title>This is Tijmen</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/login.css" />
+    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="modal">
+      <p class="message">Login</p>
+      <div class="options">
+        <button class="btn" onclick="netlifyIdentity.open();">Yes</button>
+        <form action="https://thisistijmen.com/">
+          <input class="btn" type="submit" value="No" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
